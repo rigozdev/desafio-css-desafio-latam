@@ -1,0 +1,87 @@
+/* 
+fuente: Source Serif Pro
+área interés: Guitar-Center
+paleta de colores: level-5-shades
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+/* Formato de hoja en cascada */
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/* Base */
+body{
+    background-color: #9faabf;
+}
+
+/* 
+Colores
+        #1e2756
+        #274073
+        #4d628c
+        #9faabf
+        #f2f2f2
+*/
+
+/* Encabezado de landing */
+.header{
+    height: 5em;
+    padding: 4em;
+    padding-left: 10em;
+    font-size: 1em;
+    background-image: url(../imgs/img-5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header, h1{
+    color: #f2f2f2;
+    text-shadow: 2px 2px 7px black;
+}
+
+
+/* Productos y tabla de productos */
+.products{
+    width: 80%;
+    margin: auto;
+    color: #1e2756;
+    
+}
+
+.products td, th{
+    width: 16%;
+    padding: 1em;
+    text-align: center;
+    border: 1px black solid;
+}
+
+
+.products img{
+    width: 100%;
+    border-style: double;
+    border: 1px #274073;
+    transition: 500ms;
+}
+
+img:hover{
+    transition: 500ms;
+    transform: scale(1.05, 1.05);
+    box-shadow: 0px 0px 15px #1e2756;
+}
+
+
+/* Bloque de CSS que da estilo a el footer */
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: #1e2756;
+    color: #f2f2f2;
+    text-align: center;
+    font-weight: 900;
+}
